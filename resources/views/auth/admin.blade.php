@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('botones')
+<a class="btn btn-primary" href="/admin">
+    Inicio
+</a>
+<hr/>
 <a href="{{route('eventos.crear')}}" class="btn btn-primary">Crear evento</a>
-<hr>
+<hr/>
 <a href="{{route('register')}}" class="btn btn-primary">Registrar Usuario</a>
 
 @endsection
@@ -53,8 +57,8 @@
     series: [{
         name: 'Population',
         data: [
-            ['Si', 23],
-            ['No', 16],
+            ['Si', 1],
+            ['No', 2],
             
         ],
         dataLabels: {

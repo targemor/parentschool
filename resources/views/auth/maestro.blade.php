@@ -1,5 +1,10 @@
 @extends('layouts.app')
 @section('botones')
+<a class="btn btn-primary" href="/maestro">
+    Inicio
+</a>
+<hr/>
+
 <a class="btn btn-primary" href="{{route('calificaciones.crear')}}">
     Subir Calificaciones
 </a>

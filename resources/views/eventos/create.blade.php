@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('botones')
+<a class="btn btn-primary" href="/admin">
+    Inicio
+</a>
+<hr/>
+
 <a class="btn btn-primary" href="{{route('eventos.crear')}}">
     Crear evento
 </a>

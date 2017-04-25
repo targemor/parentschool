@@ -45,7 +45,7 @@
 		$('button').click(function () {
 			$.ajax({
 			  type: 'POST',
-			  url: 'http://localhost:8000/evento/votar',
+			  url: 'http://proyecto.parentschool.tk/evento/votar',
 			  data: {
 			  	idTutor:{{Auth::user()->id}},
 			  	voto:this.value,
